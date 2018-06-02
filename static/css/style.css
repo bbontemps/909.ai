@@ -1,6 +1,6 @@
 html {
   font-size: 10px;
-  background: url(http://i.imgur.com/b9r5sEL.jpg) bottom center;
+  background: url(https://static.roland.com/products/spd_one/images/spd_one_electro_hero.jpg) bottom center;
   background-size: cover;
 }
 body,html {
@@ -9,14 +9,47 @@ body,html {
   font-family: sans-serif;
 }
 
-.grid-container {
-  display: grid;
+.grid {
+  width: 100%;
+  display: table;
+  border-collapse:separate;
+  border-spacing:15px;
 }
 
-.grid-item{
-  grid-column: 1 / 3;
-  grid-row: 1;
+.grid-row {
+  width: 100%;
+  display: table;
+  table-layout: fixed;
+  margin:0 0 -15px 0;
 }
+
+.square {
+  width: 100px;
+  height: 100px;
+}
+
+.item {
+  display: table-cell;
+  background: #e84485;
+  padding: 2%;
+}
+
+@media screen and (max-width: 480px) {
+
+ .grid-row {
+    display: block;
+    width: 100%;
+    margin:0;
+ }
+  
+ .item {
+  display: block;
+	width: 100%;
+  margin: 0 0 5px 0;
+ }  
+ 
+}
+
 
 .keys {
   display: flex;
