@@ -75,8 +75,8 @@ body,html {
 
 .playing {
   transform: scale(-2);
-  border-color: #ffc600;
-  box-shadow: 0 0 1rem #ffc600;
+  border-color: #5ef5cd;
+  box-shadow: 0 0 1rem #5ef5cd;
 }
 
 kbd {
@@ -88,5 +88,5 @@ kbd {
   font-size: 1.2rem;
   text-transform: uppercase;
   letter-spacing: .1rem;
-  color: #ffc600;
+  color: #5ef5cd;
 }
