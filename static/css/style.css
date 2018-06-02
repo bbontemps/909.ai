@@ -9,6 +9,15 @@ body,html {
   font-family: sans-serif;
 }
 
+.grid-container {
+  display: grid;
+}
+
+.grid-item{
+  grid-column: 1 / 3;
+  grid-row: 1;
+}
+
 .keys {
   display: flex;
   flex: 1;
